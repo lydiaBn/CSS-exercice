@@ -1,0 +1,49 @@
+body {
+  background: #0fcf90;
+}
+h1 {
+  color: #b9105e;
+}
+h2 {
+  color: orange;
+}
+ul {
+  color: #16459e;
+}
+p {
+  background-color: yellow;
+}
+input {
+  border: 3px;
+}
+.hello {
+  background-color: white;
+}
+#special {
+  border: 2px solid #00fcfe;
+}
+div:p {
+  font-size: 25px;
+}
+input::target-text {
+  background-color: gray;
+}
+div:third-child {
+  background-color: pink;
+}
+div:third-child.p:second-child {
+  border: 5px white;
+}
+label {
+  text-transform: uppercase;
+}
+.button {
+  margin-left: 50px;
+}
+#special::first-letter {
+  color: green;
+  font-size: 100px;
+}
+a:visited {
+  color: gray;
+}
